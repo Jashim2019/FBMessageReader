@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBEAD3BE15F7EEE900CEFB63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEAD3BD15F7EEE900CEFB63 /* UIKit.framework */; };
+		FBEAD3C015F7EEE900CEFB63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEAD3BF15F7EEE900CEFB63 /* Foundation.framework */; };
+		FBEAD3C215F7EEE900CEFB63 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEAD3C115F7EEE900CEFB63 /* CoreGraphics.framework */; };
+		FBEAD3C815F7EEE900CEFB63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBEAD3C615F7EEE900CEFB63 /* InfoPlist.strings */; };
+		FBEAD3CA15F7EEE900CEFB63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAD3C915F7EEE900CEFB63 /* main.m */; };
+		FBEAD3CE15F7EEE900CEFB63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAD3CD15F7EEE900CEFB63 /* AppDelegate.m */; };
+		FBEAD3DD15F7EF5B00CEFB63 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAD3DB15F7EF5B00CEFB63 /* LoginViewController.m */; };
+		FBEAD3DE15F7EF5B00CEFB63 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBEAD3DC15F7EF5B00CEFB63 /* LoginViewController.xib */; };
+		FBEAD3E015F7EFB500CEFB63 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEAD3DF15F7EFB500CEFB63 /* FacebookSDK.framework */; };
+		FBEAD3E215F7EFC200CEFB63 /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FBEAD3E115F7EFC200CEFB63 /* FacebookSDKResources.bundle */; };
+		FBEAD3E615F7F32C00CEFB63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAD3E415F7F32C00CEFB63 /* ViewController.m */; };
+		FBEAD3E715F7F32C00CEFB63 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBEAD3E515F7F32C00CEFB63 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBEAD3B915F7EEE900CEFB63 /* FBMessageReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBMessageReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEAD3BD15F7EEE900CEFB63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBEAD3BF15F7EEE900CEFB63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBEAD3C115F7EEE900CEFB63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FBEAD3C515F7EEE900CEFB63 /* FBMessageReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FBMessageReader-Info.plist"; sourceTree = "<group>"; };
+		FBEAD3C715F7EEE900CEFB63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBEAD3C915F7EEE900CEFB63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBEAD3CB15F7EEE900CEFB63 /* FBMessageReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBMessageReader-Prefix.pch"; sourceTree = "<group>"; };
+		FBEAD3CC15F7EEE900CEFB63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBEAD3CD15F7EEE900CEFB63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBEAD3DA15F7EF5B00CEFB63 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		FBEAD3DB15F7EF5B00CEFB63 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		FBEAD3DC15F7EF5B00CEFB63 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		FBEAD3DF15F7EFB500CEFB63 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		FBEAD3E115F7EFC200CEFB63 /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKResources.bundle; path = ../../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		FBEAD3E315F7F32C00CEFB63 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FBEAD3E415F7F32C00CEFB63 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBEAD3E515F7F32C00CEFB63 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBEAD3B615F7EEE900CEFB63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEAD3BE15F7EEE900CEFB63 /* UIKit.framework in Frameworks */,
+				FBEAD3C015F7EEE900CEFB63 /* Foundation.framework in Frameworks */,
+				FBEAD3C215F7EEE900CEFB63 /* CoreGraphics.framework in Frameworks */,
+				FBEAD3E015F7EFB500CEFB63 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBEAD3AE15F7EEE900CEFB63 = {
+			isa = PBXGroup;
+			children = (
+				FBEAD3C315F7EEE900CEFB63 /* FBMessageReader */,
+				FBEAD3BC15F7EEE900CEFB63 /* Frameworks */,
+				FBEAD3BA15F7EEE900CEFB63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBEAD3BA15F7EEE900CEFB63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBEAD3B915F7EEE900CEFB63 /* FBMessageReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBEAD3BC15F7EEE900CEFB63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBEAD3E115F7EFC200CEFB63 /* FacebookSDKResources.bundle */,
+				FBEAD3DF15F7EFB500CEFB63 /* FacebookSDK.framework */,
+				FBEAD3BD15F7EEE900CEFB63 /* UIKit.framework */,
+				FBEAD3BF15F7EEE900CEFB63 /* Foundation.framework */,
+				FBEAD3C115F7EEE900CEFB63 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBEAD3C315F7EEE900CEFB63 /* FBMessageReader */ = {
+			isa = PBXGroup;
+			children = (
+				FBEAD3E915FB926600CEFB63 /* Controller */,
+				FBEAD3E815FB925F00CEFB63 /* View */,
+				FBEAD3CC15F7EEE900CEFB63 /* AppDelegate.h */,
+				FBEAD3CD15F7EEE900CEFB63 /* AppDelegate.m */,
+				FBEAD3C415F7EEE900CEFB63 /* Supporting Files */,
+			);
+			path = FBMessageReader;
+			sourceTree = "<group>";
+		};
+		FBEAD3C415F7EEE900CEFB63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBEAD3C515F7EEE900CEFB63 /* FBMessageReader-Info.plist */,
+				FBEAD3C615F7EEE900CEFB63 /* InfoPlist.strings */,
+				FBEAD3C915F7EEE900CEFB63 /* main.m */,
+				FBEAD3CB15F7EEE900CEFB63 /* FBMessageReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBEAD3E815FB925F00CEFB63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FBEAD3DC15F7EF5B00CEFB63 /* LoginViewController.xib */,
+				FBEAD3E515F7F32C00CEFB63 /* ViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FBEAD3E915FB926600CEFB63 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FBEAD3DA15F7EF5B00CEFB63 /* LoginViewController.h */,
+				FBEAD3DB15F7EF5B00CEFB63 /* LoginViewController.m */,
+				FBEAD3E315F7F32C00CEFB63 /* ViewController.h */,
+				FBEAD3E415F7F32C00CEFB63 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBEAD3B815F7EEE900CEFB63 /* FBMessageReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBEAD3D715F7EEE900CEFB63 /* Build configuration list for PBXNativeTarget "FBMessageReader" */;
+			buildPhases = (
+				FBEAD3B515F7EEE900CEFB63 /* Sources */,
+				FBEAD3B615F7EEE900CEFB63 /* Frameworks */,
+				FBEAD3B715F7EEE900CEFB63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBMessageReader;
+			productName = FBMessageReader;
+			productReference = FBEAD3B915F7EEE900CEFB63 /* FBMessageReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBEAD3B015F7EEE900CEFB63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Paramita Ghosh";
+			};
+			buildConfigurationList = FBEAD3B315F7EEE900CEFB63 /* Build configuration list for PBXProject "FBMessageReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBEAD3AE15F7EEE900CEFB63;
+			productRefGroup = FBEAD3BA15F7EEE900CEFB63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBEAD3B815F7EEE900CEFB63 /* FBMessageReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBEAD3B715F7EEE900CEFB63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEAD3C815F7EEE900CEFB63 /* InfoPlist.strings in Resources */,
+				FBEAD3DE15F7EF5B00CEFB63 /* LoginViewController.xib in Resources */,
+				FBEAD3E215F7EFC200CEFB63 /* FacebookSDKResources.bundle in Resources */,
+				FBEAD3E715F7F32C00CEFB63 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBEAD3B515F7EEE900CEFB63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEAD3CA15F7EEE900CEFB63 /* main.m in Sources */,
+				FBEAD3CE15F7EEE900CEFB63 /* AppDelegate.m in Sources */,
+				FBEAD3DD15F7EF5B00CEFB63 /* LoginViewController.m in Sources */,
+				FBEAD3E615F7F32C00CEFB63 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBEAD3C615F7EEE900CEFB63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBEAD3C715F7EEE900CEFB63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBEAD3D515F7EEE900CEFB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBEAD3D615F7EEE900CEFB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBEAD3D815F7EEE900CEFB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Documents/FacebookSDK\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FBMessageReader/FBMessageReader-Prefix.pch";
+				INFOPLIST_FILE = "FBMessageReader/FBMessageReader-Info.plist";
+				OTHER_LDFLAGS = "-lsqlite3.0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FBEAD3D915F7EEE900CEFB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Documents/FacebookSDK\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FBMessageReader/FBMessageReader-Prefix.pch";
+				INFOPLIST_FILE = "FBMessageReader/FBMessageReader-Info.plist";
+				OTHER_LDFLAGS = "-lsqlite3.0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBEAD3B315F7EEE900CEFB63 /* Build configuration list for PBXProject "FBMessageReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEAD3D515F7EEE900CEFB63 /* Debug */,
+				FBEAD3D615F7EEE900CEFB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBEAD3D715F7EEE900CEFB63 /* Build configuration list for PBXNativeTarget "FBMessageReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEAD3D815F7EEE900CEFB63 /* Debug */,
+				FBEAD3D915F7EEE900CEFB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBEAD3B015F7EEE900CEFB63 /* Project object */;
+}

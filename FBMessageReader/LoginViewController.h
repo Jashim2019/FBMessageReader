@@ -1,0 +1,14 @@
+//
+//  LoginViewController.h
+//  FBMessageReader
+//
+//  Created by Paramita Ghosh on 9/5/12.
+//  Copyright (c) 2012 Paramita Ghosh. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface LoginViewController : UIViewController
+-(void)loginFailed;
+
+@end
