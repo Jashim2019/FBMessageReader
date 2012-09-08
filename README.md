@@ -17,3 +17,6 @@ This is build for ios.
   3.2 Sort with friend name.
 4. Dialog view for messages.
 
+Project backlog and defects are present in 
+https://www.pivotaltracker.com/projects/637497/stories
+
